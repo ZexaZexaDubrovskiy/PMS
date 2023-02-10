@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\4ИС2\PMS\PMS\PMS\App.xaml
-2-607263529
+4-1568049918
 
-6140627130
+8921394255
 13-1505183044
-BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
+BaseWindow\Authorization.xaml;BaseWindow\DialogWindow.xaml;BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
 
 False
 
