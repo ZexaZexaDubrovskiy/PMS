@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\4ИС2\PMS\PMS\PMS\obj\Debug\
+D:\4is2\Papka\PMS\PMS\PMS\obj\Debug\
 PMS
 none
 false
 DEBUG;TRACE
-D:\4ИС2\PMS\PMS\PMS\App.xaml
+D:\4is2\Papka\PMS\PMS\PMS\App.xaml
 4-1568049918
 
-8921394255
+979034888
 13-1505183044
 BaseWindow\Authorization.xaml;BaseWindow\DialogWindow.xaml;BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
 
-False
+True
 
