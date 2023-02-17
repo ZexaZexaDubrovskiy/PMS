@@ -23,6 +23,7 @@ namespace PMS
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("hehe");
         }
     }
 }
