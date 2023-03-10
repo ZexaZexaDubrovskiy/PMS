@@ -12,49 +12,60 @@
         WindowStartupLocation="CenterScreen"
         >
     <Grid Background="#F4F9F4">
-        <!-- C4E3CB-->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="400"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="800"/>
-        </Grid.ColumnDefinitions>
+            <!-- C4E3CB-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="400"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="800"/>
+            </Grid.ColumnDefinitions>
 
-        <!--
+            <!--
         <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal">
             <Button x:Name="RealtyAdd" Height="55" Width="170" Margin="5,0,15,10"  Background="#8AAE92">
                 <TextBox Text="Добавить" Foreground="White" Background="Transparent" 
                              FontWeight="Bold" FontSize="25" BorderThickness="0" 
                              IsReadOnly="True" Focusable="False"/>
-            </Button>
+            </Button> C4E3CB
         </StackPanel>
         -->
 
-        <DockPanel Grid.Row="0" Grid.Column="0">
-            <DataGrid x:Name="timeOffGrid" AutoGenerateColumns="False" CanUserAddRows="False">
-                <DataGrid.Columns>
-                    
-                    <DataGridTextColumn Header="ФИО" Binding="{Binding Path=Price}" Width="10*"/>
-                    <DataGridTextColumn Header="Вид временного промежутка" Binding="{Binding Path=Square}" Width="10*"/>
-                    <DataGridTextColumn Header="Причина" Binding="{Binding Path=Floor}" Width="10*"/>
-                    <DataGridTextColumn Header="Оплачиваемый" Binding="{Binding Path=Floor}" Width="10*"/>
-                    <DataGridTextColumn Header="Одобрено" Binding="{Binding Path=Floor}" Width="10*"/> 
-                    
-                    <!--столбец с кнопками управления-->
-                    <DataGridTemplateColumn Header="Управление">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <StackPanel Orientation="Horizontal">
-                                    <Button Content="Изм." Width="30" Margin="5,0,0,0" x:Name="timeOffEdit"
+            <DockPanel Grid.Row="0" Grid.Column="0">
+                <DataGrid x:Name="timeOffGrid" AutoGenerateColumns="False" CanUserAddRows="False" Style="{DynamicResource DataGridStyle1}"
+                          Background="#C4E3CB">
+                    <DataGrid.CellStyle>
+                        <Style TargetType="DataGridCell" >
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#8AAE92"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.CellStyle>
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Header="ФИО" Binding="{Binding Path=Price}" Width="10*" />
+                        <DataGridTextColumn Header="Вид" Binding="{Binding Path=Square}" Width="10*"/>
+                        <DataGridTextColumn Header="Причина" Binding="{Binding Path=Floor}" Width="10*"/>
+                        <DataGridTextColumn Header="Оплачиваемый" Binding="{Binding Path=Floor}" Width="15*"/>
+                        <DataGridTextColumn Header="Одобрено" Binding="{Binding Path=Floor}" Width="10*"/>
+
+                        <!--столбец с кнопками управления-->
+                        <DataGridTemplateColumn Header="Упр.">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="Изм." Width="30" Margin="5,0,0,0" x:Name="timeOffEdit"
                                             FontSize="8" Click="timeOffEdit_Click"/>
-                                </StackPanel>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                </DataGrid.Columns>
-            </DataGrid>
-        </DockPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
 
 
-    </Grid>
+        </Grid>
 </Window>

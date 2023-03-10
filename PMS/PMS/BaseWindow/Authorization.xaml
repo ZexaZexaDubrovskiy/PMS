@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PMS.BaseWindow"
         mc:Ignorable="d"
-        Title="Authorization" Height="630" Width="630"
+        Title="Авторизация" Height="600" Width="600"
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <!-- Grid Setup -->
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="450"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="350"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -25,36 +24,40 @@
         <!-- Content -->
 
         <!-- Bordered window -->
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
-            <Rectangle Fill="#C4E3CB" Width="600" Height="500" RadiusX="100" RadiusY="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <StackPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="3" Margin="-25,5,0,0">
+            <Rectangle Fill="#C4E3CB" Width="550" Height="550" RadiusX="100" RadiusY="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </StackPanel>
 
         <!-- Form in StackPanels -->
-        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical" >
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical"  Grid.RowSpan="2" Grid.ColumnSpan="2">
 
             <!-- Login Section -->
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="152,0,152,0">
-                <Label Content="Логин" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="38" BorderThickness="0" Width="260" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="152,-30,152,0">
+                <Label Content="Логин" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="40" Margin="-30,0,0,0" 
+                       BorderThickness="0" Width="350" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
                     <Label.Effect>
                         <DropShadowEffect ShadowDepth="1" />
                     </Label.Effect>
                 </Label>
-                <TextBox x:Name="TextBox_Login" Width="300" Height="50" Background="#8AAE92"  VerticalContentAlignment="Center" HorizontalContentAlignment="Left"  FontSize="28" Foreground="White" FontWeight="Bold" Padding="10,0,10,0" />
+                <TextBox x:Name="TextBox_Login" Width="350" Height="50" Margin="-30,10,0,0" 
+                         Background="#8AAE92"  VerticalContentAlignment="Center" HorizontalContentAlignment="Left"  FontSize="28" Foreground="White" FontWeight="Bold" Padding="10,0,10,0" />
             </StackPanel>
 
             <!-- Password Section-->
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="152,0,152,0">
-                <Label Content="Пароль" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="38" BorderThickness="0" HorizontalAlignment="Left" Width="260" Height="60">
+                <Label Content="Пароль" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="40" Margin="-30,0,0,0" 
+                       BorderThickness="0" HorizontalAlignment="Left" Width="260" Height="60">
                     <Label.Effect>
                         <DropShadowEffect ShadowDepth="1" />
                     </Label.Effect>
                 </Label>
-                <PasswordBox x:Name="PasswordBox_Password" Width="300" Height="50" Background="#8AAE92" VerticalContentAlignment="Center"  HorizontalContentAlignment="Left" FontSize="28" Foreground="White" FontWeight="Bold" Padding="10,0,10,0" TabIndex="2" />
+                <PasswordBox x:Name="PasswordBox_Password" Width="350" Height="50"  Margin="-30,10,0,0" 
+                             Background="#8AAE92" VerticalContentAlignment="Center"  HorizontalContentAlignment="Left" FontSize="28" Foreground="White" FontWeight="Bold" Padding="10,0,10,0" TabIndex="2" />
             </StackPanel>
 
             <!-- Button -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="152,64,152,0">
-                <Button Background="#8AAE92" Width="300" Height="96" x:Name="signInButton" Style="{DynamicResource ButtonStyle1}">
+                <Button Background="#8AAE92" Width="300" Height="96" x:Name="signInButton" Style="{DynamicResource ButtonStyle1}" Margin="-30,0,0,0" > 
                     <TextBox Text="Войти" Foreground="White" Background="Transparent" FontWeight="Bold" FontSize="24" BorderThickness="0" IsReadOnly="True" Focusable="False" />
                 </Button>
             </StackPanel>

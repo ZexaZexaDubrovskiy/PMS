@@ -59,7 +59,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="BaseWindow\DialogWindow.xaml">
+    <Page Include="BaseWindow\DialogWindowVacation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BaseWindow\DialogWindowDayOff.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -78,8 +82,11 @@
     <Compile Include="BaseWindow\Authorization.xaml.cs">
       <DependentUpon>Authorization.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BaseWindow\DialogWindow.xaml.cs">
-      <DependentUpon>DialogWindow.xaml</DependentUpon>
+    <Compile Include="BaseWindow\DialogWindowVacation.xaml.cs">
+      <DependentUpon>DialogWindowVacation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BaseWindow\DialogWindowDayOff.xaml.cs">
+      <DependentUpon>DialogWindowDayOff.xaml</DependentUpon>
     </Compile>
     <Compile Include="BaseWindow\requestTimeOff.xaml.cs">
       <DependentUpon>requestTimeOff.xaml</DependentUpon>
