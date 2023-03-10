@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PMS.BaseWindow;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace PMS
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void PersonalAreaButton_Click(object sender, RoutedEventArgs e)
+        {
+            var window =  new WorkerWindow(); // Help being the help window class
+            window.Show();
+            Close();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

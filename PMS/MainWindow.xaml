@@ -9,15 +9,15 @@
     <Grid x:Name="MainGrid" Background="#8AAE99">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="160" MinWidth="140" MaxWidth="250"/>
+                <ColumnDefinition Width="170" MinWidth="140" MaxWidth="250"/>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*" MinWidth="300"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" Grid.RowSpan="2" MaxWidth="840" Margin="5, 20, 5, 0"  Orientation="Vertical">
                 <Image MinWidth="50" MinHeight="150"></Image>
                 <Label Style="{StaticResource LabelStyle1}" Width="Auto" x:Name="NameLabel" Foreground="Black">Family Name</Label>
-                <Button x:Name="PersonalAreaButton" Content="Личный кабинет" Cursor="Hand" Style="{StaticResource ButtonStyle1}" Margin="5,0,5,0"/>
-                <Button x:Name="ExitButton" Content="Выход" Cursor="Hand" Style="{StaticResource ButtonStyle1}" Margin="5,450,5,0" />
+                <Button x:Name="PersonalAreaButton" Content="Личный кабинет" Cursor="Hand" Style="{StaticResource ButtonStyle1}" Margin="5,0,5,0" Click="PersonalAreaButton_Click"/>
+                <Button x:Name="ExitButton" Content="Выход" Cursor="Hand" Style="{StaticResource ButtonStyle1}" Margin="5,450,5,0" Click="ExitButton_Click" />
             </StackPanel>
             <GridSplitter Grid.Column="1"  Grid.RowSpan="2" Background="Black"
               Width="3" HorizontalAlignment="Stretch" />
@@ -28,9 +28,6 @@
                         <RowDefinition Height="1"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
                     <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" >
                         <Button x:Name="RecordAdd" Content="Добавить" 
                     Style="{StaticResource ButtonStyle1}" Margin="5,0,0,5"
@@ -49,7 +46,18 @@
                         <TextBox x:Name="FilterTextBox" Margin="5,0,5,0" Width="170" Height="30" Style="{StaticResource TextBoxStyle1}"/>
                     </StackPanel>
                 </Grid>
-                <Frame x:Name="RootFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
+                <!--<Frame x:Name="RootFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>-->
+                <DataGrid x:Name="PageGrid" AutoGenerateColumns="False" CanUserAddRows="False" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ФИО" Binding="{Binding Path=FIO}" Width="10*"/><!--Поменять-->
+                        <DataGridTextColumn Header="Отдел" Binding="{Binding Path=id_department}" Width="10*"/>
+                        <DataGridTextColumn Header="Должность" Binding="{Binding Path=id_rank}" Width="10*"/>
+                        <DataGridTextColumn Header="Фото" Binding="{Binding Path=image}" Width="10*"/>
+                        <DataGridTextColumn Header="Отгул" Binding="{Binding Path=approved}" Width="10*"/>
+                        <DataGridTextColumn Header="Отпуск" Binding="{Binding Path=approved}" Width="10*"/>
+                        <DataGridTextColumn Header="Время" Binding="{Binding Path=approved}" Width="10*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
             </StackPanel>
 
         </Grid>

@@ -35,8 +35,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +64,52 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BaseWindow\WorkerWindow.xaml.cs">
+      <DependentUpon>WorkerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Base\employeeAccess.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\employeeDepartment.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\employeeRank.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\PMSModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\PMSModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\PMSModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Base\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\sp_helpdiagrams_Result.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\sysdiagrams.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\timeOff.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\timeType.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Users.cs">
+      <DependentUpon>PMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SourceCore.cs" />
     <Page Include="BaseWindow\Authorization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -64,6 +119,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BaseWindow\requestTimeOff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BaseWindow\WorkerWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,6 +166,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="Base\PMSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PMSModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Base\PMSModel.edmx.diagram">
+      <DependentUpon>PMSModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,8 +182,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Base\" />
+    <Content Include="Base\PMSModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PMSModel.Context.cs</LastGenOutput>
+      <DependentUpon>PMSModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Base\PMSModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMSModel.edmx</DependentUpon>
+      <LastGenOutput>PMSModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

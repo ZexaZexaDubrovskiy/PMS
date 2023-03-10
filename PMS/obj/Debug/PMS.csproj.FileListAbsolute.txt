@@ -41,3 +41,11 @@ D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
 D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS.csproj.CoreCompileInputs.cache
 D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS.exe
 D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS.pdb
+D:\4is2\PMS-master\PMS\PMS\bin\Debug\EntityFramework.dll
+D:\4is2\PMS-master\PMS\PMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\4is2\PMS-master\PMS\PMS\bin\Debug\EntityFramework.xml
+D:\4is2\PMS-master\PMS\PMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\4is2\PMS-master\PMS\PMS\obj\Debug\BaseWindow\WorkerWindow.g.cs
+D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS_Content.g.cs
+D:\4is2\PMS-master\PMS\PMS\obj\Debug\BaseWindow\WorkerWindow.baml
+D:\4is2\PMS-master\PMS\PMS\obj\Debug\PMS.csproj.CopyComplete
