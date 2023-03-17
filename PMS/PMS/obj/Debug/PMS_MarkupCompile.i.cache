@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\4is2\PMS\PMS\PMS\App.xaml
-5275829466
-
-10451025078
-13-1505183044
-BaseWindow\Authorization.xaml;BaseWindow\DialogWindowVacation.xaml;BaseWindow\DialogWindowDayOff.xaml;BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
+9-1168538414
+2-246117042
+251439641606
+18-1571574384
+BaseWindow\Authorization.xaml;BaseWindow\DialogWindowEditTime.xaml;BaseWindow\DayOffAcceptOrDisable.xaml;BaseWindow\EditTimeAcceptOrDisable.xaml;BaseWindow\VacationAcceptOrDisable.xaml;BaseWindow\DialogWindowVacation.xaml;BaseWindow\DialogWindowDayOff.xaml;BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
 
 False
 
