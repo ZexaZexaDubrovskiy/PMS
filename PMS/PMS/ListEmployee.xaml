@@ -11,6 +11,7 @@
     
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -19,7 +20,7 @@
             <ColumnDefinition Width="400"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0" Background="#C4E3CB">
+        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="#C4E3CB">
             <Image x:Name="image" Width="300" Height="200" Margin="20" Source="D://Photo3.jpg"/>
             <Label Content="Смирнов В.Б." Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" Margin="50,0,0,0" 
                        BorderThickness="0" Width="300" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
@@ -55,24 +56,41 @@
 
         </StackPanel>
 
-        <DockPanel Grid.Row="0" Grid.Column="1" >
+
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Background="White">
+            <Button Background="#8AAE92" Width="200" Height="50" Style="{DynamicResource ButtonStyle1}" Margin="200,0,0,0" >
+                <TextBox Text="Добавить" Foreground="White" Background="Transparent" FontWeight="Bold" FontSize="24" BorderThickness="0" IsReadOnly="True" Focusable="False" />
+            </Button>
+            <Button Background="#8AAE92" Width="200" Height="50" Style="{DynamicResource ButtonStyle1}" Margin="10,0,0,0" >
+                <TextBox Text="Копировать" Foreground="White" Background="Transparent" FontWeight="Bold" FontSize="24" BorderThickness="0" IsReadOnly="True" Focusable="False" />
+            </Button>
+            <Button Background="#8AAE92" Width="200" Height="50" Style="{DynamicResource ButtonStyle1}" Margin="10,0,0,0" >
+                <TextBox Text="Удалить" Foreground="White" Background="Transparent" FontWeight="Bold" FontSize="24" BorderThickness="0" IsReadOnly="True" Focusable="False" />
+            </Button>
+            
+
+        </StackPanel>
+
+
+        <DockPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" >
             <DataGrid x:Name="AccountGrid" AutoGenerateColumns="False" CanUserAddRows="False" 
                       Background="#C4E3CB" Style="{DynamicResource DataGridStyle1}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Начало" Binding="{Binding Path=Login}" Width="10*"/>
-                    <DataGridTextColumn Header="Конец" Binding="{Binding Path=Password}" Width="10*"/>
-                    <DataGridTextColumn Header="Обед" Binding="{Binding Path=Admin}" Width="10*"/>
-                    <DataGridTextColumn Header="Рабочее время" Binding="{Binding Path=Phone}" Width="10*"/>
+                    <DataGridTextColumn Header="ФИО" Binding="{Binding Path=Login}" Width="10*"/>
+                    <DataGridTextColumn Header="Отдел" Binding="{Binding Path=Password}" Width="10*"/>
+                    <DataGridTextColumn Header="Должность" Binding="{Binding Path=Admin}" Width="10*"/>
+                    <DataGridTextColumn Header="Фото" Binding="{Binding Path=Phone}" Width="10*"/>
+                    <DataGridTextColumn Header="Отгул" Binding="{Binding Path=Phone}" Width="10*"/>
+                    <DataGridTextColumn Header="Отпуск" Binding="{Binding Path=Phone}" Width="10*"/>
+                    <DataGridTextColumn Header="Время" Binding="{Binding Path=Phone}" Width="10*"/>
 
                     <!--столбец с кнопками управления-->
-                    <DataGridTemplateColumn Header="Управление">
+                    <DataGridTemplateColumn Header="Подробнее">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
                                     <Button Content="Изм." Width="30" Margin="5,0,0,0" x:Name="AccountEdit"
                                             FontSize="8" Click="AccountEdit_Click"/>
-                                    <Button Content="Удал." Width="30" Margin="5,0,5,0" x:Name="AccountDelete"
-                                            FontSize="8" Click="AccountDelete_Click"/>
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
