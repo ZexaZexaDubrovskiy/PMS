@@ -20,9 +20,24 @@ namespace PMS
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private Base.PMSEntities DataBase;
+        private Base.Users User;
+        public MainWindow(Base.Users User)
         {
             InitializeComponent();
+            try
+            {
+                DataBase = new Base.PMSEntities();
+            }
+            catch
+            {
+                MessageBox.Show("Не удалось подключиться к базе данных. Проверьте настройки подключения приложения.",
+                    "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
+                Close();
+            }
+            this.User = User;
+
+            dateBD.Content = $"Дата рождения: {User.dateOfBirth}";
         }
     }
 }

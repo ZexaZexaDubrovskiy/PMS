@@ -17,9 +17,9 @@ namespace PMS.BaseWindow
     /// <summary>
     /// Interaction logic for DialogWindow.xaml
     /// </summary>
-    public partial class DialogWindow : Window
+    public partial class DialogWindowDayOff : Window
     {
-        public DialogWindow()
+        public DialogWindowDayOff()
         {
             InitializeComponent();
         }

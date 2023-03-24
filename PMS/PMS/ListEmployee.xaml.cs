@@ -18,11 +18,31 @@ namespace PMS
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ListEmployee : Window
     {
-        public MainWindow()
+        private Base.PMSEntities DataBase;
+        private Base.Users User;
+        public ListEmployee(Base.Users User)
         {
             InitializeComponent();
+            try
+            {
+                DataBase = new Base.PMSEntities();
+            }
+            catch
+            {
+                MessageBox.Show("Не удалось подключиться к базе данных. Проверьте настройки подключения приложения.",
+                    "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
+                Close();
+            }
+            this.User = User;
+        }
+
+        private void accountButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow(User);
+            window.Show();
+            Close();
         }
     }
 }

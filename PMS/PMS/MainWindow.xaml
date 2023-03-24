@@ -20,7 +20,7 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0" Background="#C4E3CB">
-            <Image x:Name="image" Width="300" Height="200" Margin="20" Source="D://Photo3.jpg"/>
+            <!--<Image x:Name="image" Width="300" Height="200" Margin="20" Source="D://Photo3.jpg"/> -->
             <Label Content="Смирнов В.Б." Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" Margin="50,0,0,0" 
                        BorderThickness="0" Width="300" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
                 <Label.Effect>
@@ -28,7 +28,8 @@
                 </Label.Effect>
             </Label>
             <Label Content="Дата рождения: " Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" Margin="50,0,0,0" 
-                       BorderThickness="0" Width="300" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
+                       BorderThickness="0" Width="300" Height="60" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}"
+                   x:Name="dateBD">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
@@ -70,9 +71,9 @@
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
                                     <Button Content="Изм." Width="30" Margin="5,0,0,0" x:Name="AccountEdit"
-                                            FontSize="8" Click="AccountEdit_Click"/>
+                                            FontSize="8" />
                                     <Button Content="Удал." Width="30" Margin="5,0,5,0" x:Name="AccountDelete"
-                                            FontSize="8" Click="AccountDelete_Click"/>
+                                            FontSize="8" />
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
