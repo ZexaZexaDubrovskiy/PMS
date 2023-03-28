@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\4ИС2\PMS\PMS\PMS\obj\Debug\
+C:\Programming\Worker\PMS\PMS\PMS\obj\Debug\
 PMS
 none
 false
 DEBUG;TRACE
-D:\4ИС2\PMS\PMS\PMS\App.xaml
-4-1568049918
-
-8921394255
-13-1505183044
-BaseWindow\Authorization.xaml;BaseWindow\DialogWindow.xaml;BaseWindow\requestTimeOff.xaml;MainWindow.xaml;
+C:\Programming\Worker\PMS\PMS\PMS\App.xaml
+101155833708
+2-246117042
+241646829585
+18-874442594
+BaseWindow\Authorization.xaml;BaseWindow\DialogWindowEditTime.xaml;BaseWindow\DayOffAcceptOrDisable.xaml;BaseWindow\EditTimeAcceptOrDisable.xaml;BaseWindow\VacationAcceptOrDisable.xaml;BaseWindow\DialogWindowVacation.xaml;BaseWindow\DialogWindowDayOff.xaml;BaseWindow\requestTimeOff.xaml;ListEmployee.xaml;MainWindow.xaml;
 
 False
 

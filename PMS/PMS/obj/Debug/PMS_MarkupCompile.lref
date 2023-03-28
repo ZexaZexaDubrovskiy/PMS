@@ -1,7 +1,13 @@
 ﻿
-FD:\4ИС2\PMS\PMS\PMS\App.xaml;;
-FD:\4ИС2\PMS\PMS\PMS\BaseWindow\Authorization.xaml;;
-FD:\4ИС2\PMS\PMS\PMS\BaseWindow\DialogWindow.xaml;;
-FD:\4ИС2\PMS\PMS\PMS\BaseWindow\requestTimeOff.xaml;;
-FD:\4ИС2\PMS\PMS\PMS\MainWindow.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\App.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\Authorization.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\DialogWindowEditTime.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\DayOffAcceptOrDisable.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\EditTimeAcceptOrDisable.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\VacationAcceptOrDisable.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\DialogWindowVacation.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\DialogWindowDayOff.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\BaseWindow\requestTimeOff.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\ListEmployee.xaml;;
+FC:\Programming\Worker\PMS\PMS\PMS\MainWindow.xaml;;
 

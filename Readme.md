@@ -1,4 +1,4 @@
-<h1>PMS (personnel management system) 😱😱😱 <img src="https://media.tenor.com/XJv6qqYeOhsAAAAC/twerken-twerk.gif"/> </h1>
+<h1>PMS (personnel management system) 😱😱😱 </h1>
 
 Разработка автоматизированной системы управления кадровым составом учреждения⭐⭐⭐<br><br>
 <a href="https://www.figma.com/file/R0bb9HIORO0oj2srxhqoE3/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%9F%D0%9C%D0%A1-%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F?node-id=0%3A1&t=zs0vehDfBVJvBp7O-1"><image src="https://img2.freepng.ru/20180614/tjk/kisspng-figma-designer-computer-icons-material-design-5b2244f198c236.1471924315289725296257.jpg" 
