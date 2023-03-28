@@ -158,5 +158,10 @@ namespace PMS
             window.Show();
             Close();
         }
+
+        private void addVacationButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
