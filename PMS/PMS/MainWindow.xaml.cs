@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
+using PMS.BaseWindow;
 
 namespace PMS
 {
@@ -161,7 +162,10 @@ namespace PMS
 
         private void addVacationButton_Click(object sender, RoutedEventArgs e)
         {
-
+            DialogWindowVacation dwVacation = new DialogWindowVacation();
+            dwVacation.User = this.User;
+            dwVacation.Show();
+            dwVacation.Initialize();
         }
     }
 }

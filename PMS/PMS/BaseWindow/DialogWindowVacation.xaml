@@ -20,28 +20,26 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="0" Grid.Row="0">
-            <Label x:Name="DateLabelTo" Content="Начало" Style="{DynamicResource LabelStyle1}">
+            <Label x:Name="DateLabelFrom" Content="Начало" Style="{DynamicResource LabelStyle1}">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
-            <DatePicker x:Name="datePickerTo" Width="250" Height="50"
-                            FontSize="30" FontWeight="Bold"/>
+            <DatePicker x:Name="datePickerFrom" Width="250" Height="50" FontSize="30" FontWeight="Bold" SelectedDateChanged="datePickerFrom_SelectedDateChanged"/>
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="0">
-            <Label x:Name="DateLabelFrom" Content="Конец" Style="{DynamicResource LabelStyle1}">
+            <Label x:Name="DateLabelTo" Content="Конец" Style="{DynamicResource LabelStyle1}">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
-            <DatePicker x:Name="datePickerFrom" Width="250" Height="50"
-                            FontSize="30" FontWeight="Bold"/>
+            <DatePicker x:Name="datePickerTo" Width="250" Height="50" FontSize="30" FontWeight="Bold" SelectedDateChanged="datePickerTo_SelectedDateChanged"/>
         </StackPanel>
 
 
         <StackPanel Grid.Column="2" Grid.Row="0" VerticalAlignment="Center">
-            <Label x:Name="DateLabelCount" Content="Кол-во дней" 
+            <Label x:Name="Label_DaysCount" Content="Кол-во дней" 
                    Style="{DynamicResource LabelStyle1}">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
@@ -68,16 +66,12 @@
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
-            <TextBox  x:Name="reasoneTextBox" HorizontalAlignment="Left" Height="200"
+            <TextBox  x:Name="TextBox_Reason" HorizontalAlignment="Left" Height="200"
                           Width="1150" TextWrapping="Wrap"
                           Style="{DynamicResource TextBoxStyle1}"/>
         </StackPanel>
 
-        <Button x:Name="Add" Content="Отправить" Grid.Row="2" Grid.Column="2"
-                Width="250" Height="75"
-                Style="{DynamicResource ButtonStyle1}"/>
-        <Button x:Name="ListOFRecipes" Content="Отменить" Grid.Row="3" Grid.Column="3"
-                Width="250" Height="75"
-                Style="{DynamicResource ButtonStyle1}"/>
+        <Button x:Name="Button_Add" Content="Отправить" Grid.Row="2" Grid.Column="2" Width="250" Height="75" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Send"/>
+        <Button x:Name="Button_Cancel" Content="Отменить" Grid.Row="3" Grid.Column="3" Width="250" Height="75" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Cancel"/>
     </Grid>
 </Window>
