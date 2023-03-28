@@ -13,9 +13,9 @@
 Пахомов И.<br>
 <img src="https://avatars.githubusercontent.com/u/103951197?v=4"><br>
 Волков М.<br>
-<img src="https://avatars.githubusercontent.com/u/53939102?v=4"><br>
+<img src="https://2.bp.blogspot.com/-GPGyhSsIfUU/UqtEOROVKnI/AAAAAAABs0M/5-eh33fMlB0/s1600/1455888_738619219500819_966726195_n.jpg"><br>
 Кладухин В.<br>
-
+<img src="https://avatars.githubusercontent.com/u/53939102?v=4"><br>
 <br>
 <h1><b>Отдел</b></h1>
 
