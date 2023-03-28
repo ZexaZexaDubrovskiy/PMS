@@ -4,12 +4,16 @@
 <a href="https://www.figma.com/file/R0bb9HIORO0oj2srxhqoE3/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%9F%D0%9C%D0%A1-%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F?node-id=0%3A1&t=zs0vehDfBVJvBp7O-1"><image src="https://img2.freepng.ru/20180614/tjk/kisspng-figma-designer-computer-icons-material-design-5b2244f198c236.1471924315289725296257.jpg" 
        width="100" height="100"> </image></a><br>
 
-<img src="https://avatars.githubusercontent.com/u/103951197?v=4">
+
 <h1><b>Команда разработчиков</b></h1>
 <b>Дубровский А.М.</b><br>
+<img src="[https://avatars.githubusercontent.com/u/103951197?v=4](https://avatars.githubusercontent.com/u/58052187?v=4)"><br>
 Смирнов М.<br>
+<img src="[https://avatars.githubusercontent.com/u/103951197?v=4](https://avatars.githubusercontent.com/u/103235111?v=4)"><br>
 Пахомов И.<br>
+<img src="https://avatars.githubusercontent.com/u/103951197?v=4"><br>
 Волков М.<br>
+<img src="https://2.bp.blogspot.com/-GPGyhSsIfUU/UqtEOROVKnI/AAAAAAABs0M/5-eh33fMlB0/s1600/1455888_738619219500819_966726195_n.jpg"><br>
 Кладухин В.<br>
 
 <br>
