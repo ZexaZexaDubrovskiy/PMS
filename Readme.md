@@ -7,13 +7,13 @@
 
 <h1><b>Команда разработчиков</b></h1>
 <b>Дубровский А.М.</b><br>
-<img src="[https://avatars.githubusercontent.com/u/103951197?v=4](https://avatars.githubusercontent.com/u/58052187?v=4)"><br>
+<img src="https://avatars.githubusercontent.com/u/58052187?v=4"><br>
 Смирнов М.<br>
-<img src="[https://avatars.githubusercontent.com/u/103951197?v=4](https://avatars.githubusercontent.com/u/103235111?v=4)"><br>
+<img src="https://avatars.githubusercontent.com/u/103235111?v=4"><br>
 Пахомов И.<br>
 <img src="https://avatars.githubusercontent.com/u/103951197?v=4"><br>
 Волков М.<br>
-<img src="https://2.bp.blogspot.com/-GPGyhSsIfUU/UqtEOROVKnI/AAAAAAABs0M/5-eh33fMlB0/s1600/1455888_738619219500819_966726195_n.jpg"><br>
+<img src="https://avatars.githubusercontent.com/u/53939102?v=4"><br>
 Кладухин В.<br>
 
 <br>
