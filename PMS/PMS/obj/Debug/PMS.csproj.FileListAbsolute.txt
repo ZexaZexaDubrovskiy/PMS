@@ -1,0 +1,103 @@
+D:\4ИС2\PMS\PMS\PMS\bin\Debug\PMS.exe.config
+D:\4ИС2\PMS\PMS\PMS\bin\Debug\PMS.exe
+D:\4ИС2\PMS\PMS\PMS\bin\Debug\PMS.pdb
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.g.cs
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\MainWindow.g.cs
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\App.g.cs
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.cache
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.lref
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.baml
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\MainWindow.baml
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.g.resources
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.Properties.Resources.resources
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.csproj.CoreCompileInputs.cache
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.exe
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\PMS.pdb
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.g.cs
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindow.g.cs
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.baml
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindow.baml
+D:\4ИС2\PMS\PMS\PMS\obj\Debug\App.baml
+D:\4is2\PMS\PMS\PMS\bin\Debug\PMS.exe.config
+D:\4is2\PMS\PMS\PMS\bin\Debug\PMS.exe
+D:\4is2\PMS\PMS\PMS\bin\Debug\PMS.pdb
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.csprojAssemblyReference.cache
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\MainWindow.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\App.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.cache
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.lref
+D:\4is2\PMS\PMS\PMS\obj\Debug\App.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\MainWindow.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.g.resources
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.Properties.Resources.resources
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.csproj.CoreCompileInputs.cache
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.exe
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.pdb
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowEditTime.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DayOffAcceptOrDisable.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\EditTimeAcceptOrDisable.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\VacationAcceptOrDisable.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowVacation.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowDayOff.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\ListEmployee.g.cs
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS_Content.g.cs
+D:\4is2\PMS\PMS\PMS\bin\Debug\EntityFramework.dll
+D:\4is2\PMS\PMS\PMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\4is2\PMS\PMS\PMS\bin\Debug\EntityFramework.xml
+D:\4is2\PMS\PMS\PMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowEditTime.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DayOffAcceptOrDisable.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\EditTimeAcceptOrDisable.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\VacationAcceptOrDisable.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowVacation.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowDayOff.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\ListEmployee.baml
+D:\4is2\PMS\PMS\PMS\obj\Debug\PMS.csproj.CopyComplete
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\PMS.exe.config
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\PMS.exe
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\PMS.pdb
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\EntityFramework.dll
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\EntityFramework.xml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.csproj.AssemblyReference.cache
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowEditTime.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DayOffAcceptOrDisable.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\EditTimeAcceptOrDisable.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\VacationAcceptOrDisable.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowVacation.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowDayOff.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\ListEmployee.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\MainWindow.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\App.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS_Content.g.cs
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.cache
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS_MarkupCompile.lref
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\App.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\Authorization.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowEditTime.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DayOffAcceptOrDisable.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\EditTimeAcceptOrDisable.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\VacationAcceptOrDisable.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowVacation.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\DialogWindowDayOff.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\BaseWindow\requestTimeOff.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\ListEmployee.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\MainWindow.baml
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.g.resources
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.Properties.Resources.resources
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.cache
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.csproj.CoreCompileInputs.cache
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.csproj.CopyComplete
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.exe
+C:\Users\ZexaZ\OneDrive\Рабочий стол\Lobanova\PMS\PMS\PMS\obj\Debug\PMS.pdb
