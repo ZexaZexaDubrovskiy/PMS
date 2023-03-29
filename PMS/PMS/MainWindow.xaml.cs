@@ -57,6 +57,11 @@ namespace PMS
             }
             this.User = User;
             ShowUserContent();
+
+            VacationAcceptOrDisable vacreqWindow = new VacationAcceptOrDisable();
+            vacreqWindow.Show();
+            vacreqWindow.User = User;
+            vacreqWindow.Ininitalize();
         }
 
         private void FillDate()

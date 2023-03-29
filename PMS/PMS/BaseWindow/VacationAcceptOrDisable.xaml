@@ -15,50 +15,44 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="0" Grid.Row="0">
-            <Label x:Name="DateLabelTo" Content="Начало:" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
+            
+            <Label x:Name="Label_DateStart" Content="Начало:" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}" Width="auto">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
 
-            <Label x:Name="DateLabelFrom" Content="Конец:" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}">
+            <Label x:Name="Label_DateEnd" Content="Конец:" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}" Width="auto">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
 
-            <Label x:Name="DateLabelCount" Content="Кол-во дней:"  HorizontalAlignment="Left"
-                   Style="{DynamicResource LabelStyle1}">
-                    <Label.Effect>
-                        <DropShadowEffect ShadowDepth="1" />
-                    </Label.Effect>
-                </Label>
-
-
-            <Label x:Name="DateLabelTimeType" Content="Вид отпуска:"  HorizontalAlignment="Left"
-                   Style="{DynamicResource LabelStyle1}">
+            <Label x:Name="Label_DaysCount" Content="Кол-во дней:"  HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}" Width="auto">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
 
-            <Label  x:Name="reasoneLable" Content="Причина:" HorizontalAlignment="Left"
-                    Style="{DynamicResource LabelStyle1}">
+
+            <Label x:Name="Label_TimeOffType" Content="Вид отпуска:"  HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}" Width="auto">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+
+            <Label  x:Name="Label_Reason" Content="Причина:" HorizontalAlignment="Left" Style="{DynamicResource LabelStyle1}" Width="auto">
                 <Label.Effect>
                     <DropShadowEffect ShadowDepth="1" />
                 </Label.Effect>
             </Label>
 
             <StackPanel Orientation="Horizontal" Margin="0,150,0,0">
-                <Button x:Name="Add" Content="Одобрить"  HorizontalAlignment="Left" 
-                Width="250" Height="75" Margin="100,0,0,0"
-                Style="{DynamicResource ButtonStyle1}"/>
-            <Button x:Name="ListOFRecipes" Content="Отказать"  HorizontalAlignment="Left"
-                Width="250" Height="75" Margin="100,0,0,0"
-                Style="{DynamicResource ButtonStyle1}"/>
+                <Button x:Name="Button_Approve" Content="Одобрить"  HorizontalAlignment="Left" Width="250" Height="75" Margin="100,0,0,0" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Approve"/>
+                <Button x:Name="Button_Ignore" Content="Игнор"  HorizontalAlignment="Left" Width="250" Height="75" Margin="100,0,0,0" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Ignore"/>
             </StackPanel>
-        </StackPanel>
 
+        </StackPanel>
 
     </Grid>
 </Window>
