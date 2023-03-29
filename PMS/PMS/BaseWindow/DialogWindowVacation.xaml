@@ -1,0 +1,77 @@
+﻿<Window x:Class="PMS.BaseWindow.DialogWindowVacation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PMS.BaseWindow"
+        mc:Ignorable="d"
+        Title="Выбрать отпуск" Height="600" Width="1200" MinWidth="600" MinHeight="600" WindowStartupLocation="CenterScreen">
+    <Grid Background="#C4E3CB">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <Label x:Name="DateLabelFrom" Content="Начало" Style="{DynamicResource LabelStyle1}">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+            <DatePicker x:Name="datePickerFrom" Width="250" Height="50" FontSize="30" FontWeight="Bold" SelectedDateChanged="datePickerFrom_SelectedDateChanged"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <Label x:Name="DateLabelTo" Content="Конец" Style="{DynamicResource LabelStyle1}">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+            <DatePicker x:Name="datePickerTo" Width="250" Height="50" FontSize="30" FontWeight="Bold" SelectedDateChanged="datePickerTo_SelectedDateChanged"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="2" Grid.Row="0" VerticalAlignment="Center">
+            <Label x:Name="Label_DaysCount" Content="Кол-во дней" 
+                   Style="{DynamicResource LabelStyle1}">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="0">
+            <Label x:Name="DateLabelTimeType" Content="Вид отпуска" 
+                   Style="{DynamicResource LabelStyle1}">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+            <ComboBox x:Name="DateComboBoxTimeType"  Width="150" Height="20" FontSize="12" BorderThickness="0" 
+                          Margin="5,0,0,0" DisplayMemberPath="type"  Padding="0,0,0,2"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Margin="20,0,0,0">
+            <Label  x:Name="reasoneLable" Content="Причина" HorizontalAlignment="Left"
+                    
+                    Style="{DynamicResource LabelStyle1}">
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="1" />
+                </Label.Effect>
+            </Label>
+            <TextBox  x:Name="TextBox_Reason" HorizontalAlignment="Left" Height="200"
+                          Width="1150" TextWrapping="Wrap"
+                          Style="{DynamicResource TextBoxStyle1}"/>
+        </StackPanel>
+
+        <Button x:Name="Button_Add" Content="Отправить" Grid.Row="2" Grid.Column="2" Width="250" Height="75" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Send"/>
+        <Button x:Name="Button_Cancel" Content="Отменить" Grid.Row="3" Grid.Column="3" Width="250" Height="75" Style="{DynamicResource ButtonStyle1}" Click="ButtonClick_Cancel"/>
+    </Grid>
+</Window>
