@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PMS.BaseWindow;
 
 namespace PMS
 {
@@ -56,6 +57,10 @@ namespace PMS
             }
             this.User = User;
             ShowUserContent();
+            VacationAcceptOrDisable vacreqWindow = new VacationAcceptOrDisable();
+            vacreqWindow.Show();
+            vacreqWindow.User = User;
+            vacreqWindow.Ininitalize();
         }
 
         private void FillDate()
