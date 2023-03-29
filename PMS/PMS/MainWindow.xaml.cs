@@ -165,5 +165,13 @@ namespace PMS
             window.Show();
             Close();
         }
+
+        private void addVacationButton_Click(object sender, RoutedEventArgs e)
+        {
+            DialogWindowVacation dwVacation = new DialogWindowVacation();
+            dwVacation.User = this.User;
+            dwVacation.Show();
+            dwVacation.Initialize();
+        }
     }
 }

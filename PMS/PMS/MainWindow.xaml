@@ -75,6 +75,12 @@
             </DataGrid>
         </DockPanel>
 
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <Button Background="#8AAE92" Width="250" Click="addVacationButton_Click" Height="75" x:Name="addVacationButton" Style="{DynamicResource ButtonStyle1}" Margin="0,50,0,0" >
+                <TextBox Text="Добавить отпуск" Foreground="White" Background="Transparent" FontWeight="Bold" FontSize="24" BorderThickness="0" IsReadOnly="True" Focusable="False" />
+            </Button>
+        </StackPanel>
+
 
     </Grid>
 </Window>
